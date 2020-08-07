@@ -50,8 +50,8 @@ PayLoad:
 &nbsp;&nbsp;&nbsp;&nbsp;}<br />
 &nbsp;&nbsp;&nbsp;&nbsp;]<br />
 }<br />
-Atualiza planeta
 <br />
+Atualiza planeta
 <br />
 PUT: /planets
 <br />
