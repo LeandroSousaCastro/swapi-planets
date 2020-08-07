@@ -23,6 +23,7 @@ DELETE: /planets/{id}
 Cadastra planeta
 POST: /planets
 PayLoad:
+```ruby
 {
     "name": "Geonosis",
     "climate": "temperate, arid",
@@ -34,6 +35,7 @@ PayLoad:
       }
     ]
 }
+```
 
 Atualiza planeta
 PUT: /planets
