@@ -53,15 +53,16 @@ Atualiza planeta
 PUT: /planets
 <br />
 PayLoad:
-{
-    "id": "5f2b50ed9cd77d13f801f22c",
-    "name": "Geonosis",
-    "climate": "temperate, arid",
-    "terrain": "rock, desert, mountain, barren",
-    "qtyAppearMovies": 1,
-    "movies": [
-      {
-        "link": "http://swapi.dev/api/films/5/"
-      }
-    ]
-}
+<br />
+{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"id": "5f2b50ed9cd77d13f801f22c",
+&nbsp;&nbsp;&nbsp;&nbsp;"name": "Geonosis",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"climate": "temperate, arid",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"terrain": "rock, desert, mountain, barren",<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"qtyAppearMovies": 1,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;"movies": [<br />
+&nbsp;&nbsp;&nbsp;&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"link": "http://swapi.dev/api/films/5/"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+&nbsp;&nbsp;&nbsp;&nbsp;]<br />
+}<br />
