@@ -22,9 +22,11 @@ Busca palneta por ID
 <br />
 GET: /planets/{id}
 <br />
+<br />
 Busca planeta por nome
 <br />
 GET: /planets/name/{name}
+<br />
 <br />
 Remove planeta
 <br />
