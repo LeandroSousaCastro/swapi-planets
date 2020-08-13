@@ -7,23 +7,30 @@ import javax.validation.constraints.NotBlank;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import io.swagger.annotations.ApiModelProperty;
+
 @Document
 public class Planets {
 
 	@Id
 	private String id;
 	
+	@ApiModelProperty(value = "Planet name")
 	@NotBlank(message = "Name is mandatory")
 	private String name;
 
+	@ApiModelProperty(value = "Climate name")
 	@NotBlank(message = "Climate is mandatory")
 	private String climate;
 	
+	@ApiModelProperty(value = "Terrain name")
 	@NotBlank(message = "Terrain is mandatory")
 	private String terrain;
 	
+	@ApiModelProperty(value = "Number of times it appeared in movies")
 	private Integer qtyAppearMovies;
 	
+	@ApiModelProperty(value = "movies link at https://swapi.dev/")
 	private List<Movies> movies;
 
 	public Planets() {

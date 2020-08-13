@@ -1,7 +1,10 @@
 package com.starwars.planets.model;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Movies {
 
+	@ApiModelProperty(value = "movie link at https://swapi.dev/")
 	private String link;
 	
 	public Movies() {
